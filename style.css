@@ -1,0 +1,39 @@
+/*h3{
+    opacity: 0.5;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(178, 121, 231);
+}
+
+p{
+    background-color: dodgerblue;
+}
+div{
+    text-align: center;
+    color: black;
+    background-color: rgb(148, 245, 248);*/
+
+    .image{
+        background-image: url(background-image.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .ppp::first-letter{
+        font-weight: bold;
+        font-size: 100px;
+        font-style: italic;
+    }
+.ppp::selection{
+    color: white;
+    background-color: black;
+}
+
+.border{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 40px 50px 100px 150px;
+    padding: 10px;
+}
